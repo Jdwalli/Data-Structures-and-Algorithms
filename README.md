@@ -4,7 +4,7 @@ Simple implementations of various encryption algorithms in different programming
 # Progress
 | Algorithm | Classification | Implementation Language(s) | Status |
 | ------------- | ------------- |  ------------- | -------------|
-| Caesar Cipher | Substitution Cipher |  | Not Started |
+| Caesar Cipher | Substitution Cipher | Python  | Completed |
 | Atbash Cipher | Substitution Cipher |  | Not Started |
 | Rail Fence Cipher | Transposition Ciphers |  | Not Started |
 | Vigenère Cipher | Classical Ciphers |  | Not Started |
