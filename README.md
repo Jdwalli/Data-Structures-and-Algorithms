@@ -8,9 +8,9 @@ Simple implementations of various encryption algorithms in different programming
 | ------------- | ------------------- | -------------------------- | --------- |
 | Caesar Cipher | Substitution Cipher | Python                     | Completed |
 | Bacon Cipher  | Substitution Cipher |                            | Completed |
-| Rot13 | Substitution Cipher | | Completed |
-| Rot47 | Substitution Cipher | | Completed |
-| RotRot8000 | Substitution Cipher | | Completed |
+| Rot13 | Substitution Cipher | | Not Started |
+| Rot47 | Substitution Cipher | | Not Started |
+| RotRot8000 | Substitution Cipher | | Not Started |
 | Atbash Cipher | Substitution Cipher | | Not Started |
 | Rail Fence Cipher | Transposition Ciphers | | Not Started |
 | Vigenère Cipher | Classical Ciphers | | Not Started |
@@ -26,6 +26,3 @@ Simple implementations of various encryption algorithms in different programming
 | RC4 (Rivest Cipher 4) | Stream Ciphers | | Not Started |
 | Diffie-Hellman Key Exchange | Asymmetric (Public Key) Cryptography | | Not Started |
 | Elliptic Curve Cryptography (ECC) | Asymmetric (Public Key) Cryptography | | Not Started |
-| MD5 | Hash Functions | | Not Started |
-| SHA-1 | Hash Functions | | Not Started |
-| SHA-3 | Hash Functions | | Not Started |
