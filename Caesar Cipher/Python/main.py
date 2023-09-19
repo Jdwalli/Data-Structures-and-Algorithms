@@ -35,9 +35,17 @@ class CaesarCipher:
 
 if __name__ == '__main__':
     cipher = CaesarCipher()
-    decrypted_text = cipher.decrypt("Kvu'a qbknl h ivvr if paz jvcly", 7)
-    print(decrypted_text)
-    cipher.brute_force_decrypt("KRPCFIJNZWK")
 
+    encrypted_text = cipher.encrypt('Hello World', 13)
+    assert encrypted_text == 'Uryyb Jbeyq', f"Test case 1 failed. Expected 'Uryyb Jbeyq', but got '{encrypted_text}'"
+
+    decrypted_text = cipher.decrypt('Uryyb Jbeyq', 13)
+    assert decrypted_text == 'Hello World', f"Test case 2 failed. Expected 'Hello World', but got '{decrypted_text}'"
+
+    encrypted_text = cipher.encrypt('123 456', 3)
+    assert encrypted_text == '123 456', f"Test case 3 failed. Expected '123 456', but got '{encrypted_text}'"
+
+    decrypted_text = cipher.decrypt('AbCdEfG', 1)
+    assert decrypted_text == 'ZaBcDeF', f"Test case 4 failed. Expected 'ZaBcDeF', but got '{decrypted_text}'"
     
     
