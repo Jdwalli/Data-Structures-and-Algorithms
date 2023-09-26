@@ -6,7 +6,7 @@ Simple implementations of various encryption algorithms in different programming
 
 | Algorithm     | Classification      | Implementation Language(s) | Status    |
 | ------------- | ------------------- | -------------------------- | --------- |
-| Caesar Cipher | Substitution Cipher | Python                     | Completed |
+| Caesar Cipher | Substitution Cipher | Python, C++                     | Completed |
 | Bacon Cipher  | Substitution Cipher |                            | Completed |
 | Rot13 | Substitution Cipher | | Not Started |
 | Rot47 | Substitution Cipher | | Not Started |
