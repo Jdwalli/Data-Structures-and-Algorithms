@@ -1,3 +1,5 @@
+# Algorithms
+A collection of my implementations of different algorithms and data structures
 # Encryption Algorithm Implementations
 
 Simple implementations of various encryption algorithms in different programming languages
